@@ -112,13 +112,16 @@ section {
 }
 
 #clientes .clients-banner {
-    width: 100%;
-    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #clientes .clients-banner img {
-    width: 50%;
+    width: 15%;
     height: auto;
+    margin: 10px;
 }
 
 #projetos {
@@ -151,7 +154,7 @@ section {
     border-radius: 5px;
     font-size: 12px;
 }
-	
+
 #projetos .project3 {
     background-color: #394956;
     text-align: center;
@@ -160,7 +163,7 @@ section {
     border-radius: 5px;
     font-size: 12px;
 }
-	
+
 #projetos .project img {
     width: 100%;
     height: auto;
@@ -276,6 +279,10 @@ footer p {
 
     #sobre .image img {
         width: 100%;
+    }
+
+    #clientes .clients-banner img {
+        width: 50%;
     }
 
     #projetos .projects-grid {
