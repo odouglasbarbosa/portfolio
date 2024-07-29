@@ -30,3 +30,13 @@ function closeModal() {
     modal.style.display = "none";
     console.log('Modal closed'); // Adicionado para verificar o fechamento do modal
 }
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1Z92HWPQ8D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1Z92HWPQ8D');
+</script>
